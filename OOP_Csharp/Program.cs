@@ -13,7 +13,7 @@ namespace OOP
             Marina.Nimi = "Marina";
             Marina.Sünniaasta = 1995;
             Marina.Aine = "programmeerimine";
-            Marina.Hinda(hinne[rnd.Next(1,5)])
+            Marina.Hinda(rnd.Next(1,5))
             Marina.Tunnidkuus = 28;
             Marina.Tunnitasu = 50;
             Marina.Õpeta();

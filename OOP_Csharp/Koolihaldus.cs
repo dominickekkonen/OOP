@@ -21,7 +21,7 @@ namespace OOP
         }
         public void OtsiNimeJärgi(string otsitavNimi)
         {
-            for(var isik in inimesed)
+            foreach(var isik in inimesed)
             {
                 if (isik.Nimi == otsitavNimi)
                 {

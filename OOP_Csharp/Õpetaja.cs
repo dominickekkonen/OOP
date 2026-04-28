@@ -27,7 +27,7 @@ namespace OOP
         { 
             Console.WriteLine($"{Nimi} õpetab ainet: {Aine}.");
         }
-        public void Hinda(string hinne)
+        public void Hinda(int hinne)
         {
             Console.WriteLine($"Õpetja paned: {hinne}")
         }
